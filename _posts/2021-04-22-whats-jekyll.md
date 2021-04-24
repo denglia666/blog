@@ -1,12 +1,25 @@
 ---
 layout: post
-title: What's Jekyll?
+title: How will you represent your project online after you have left it? 
 ---
 
-[Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
 
-  > Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+  > Do you need permission from your teammates and project partner to share certain snippets of code or their intellectual property? 
 
-It's an immensely useful tool and one we encourage you to use here with Lanyon.
+I do not intend to share the complete code with anyone outside the team, except for my contributions to the project.
 
-Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll).
+ > How do you distinguish your work from that of the other members of the team? 
+
+Everyone’s contributions are easy to distinguish, because each of us is completing our own part, and there is no overlap.
+
+ > What content do you want control over and what do you want your name attached to (on your page and others')? 
+
+I am one of the contributors of the project and I have contributed in some aspects. On the page of my profile, organizations should add OnSchooler.
+
+> What's the best platform for showing off your work? 
+
+In GitHub. 
+
+> How much detail should you include? 
+
+Contains algorithm ideas and pseudo code.

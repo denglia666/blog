@@ -1,122 +1,57 @@
 ---
 layout: post
-title: Example content
+title: All workflows
 ---
 
 
 <div class="message">
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+  The improvement of the OnSchooler project was completed by Liangge Deng.
 </div>
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+## Tools and Technical Approaches
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+> NuGet package
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+What needs to be confirmed in advance is that this project is based on the ASP.NET platform to build Web applications and services. NuGet package is a tool that cannot be bypassed, and it will even accompany the entire development process. When a developer tries to generate a solution for this project in Microsoft Visual Studio, a bunch of errors and warnings are bound to be generated. The reason is that the NuGet package is not installed. Make sure that the following NuGet packages are installed and correspond to the same version. It is worth noting that the NuGet package should not be updated to the latest version. Because the previous team used the old version.
+	- EntityFramework v5.0.0
+	- Microsoft.AspNet.Mvc v4.0.20710
+	- Microsoft.AspNet.Web.Optimization v1.1.3
+	- Microsoft.AspNet.WebApi v4.0.20710
+	- Microsoft.AspNet.WebPages v2.0.20710
+	- Microsoft.Web.Infrastructure v1.0.0
 
-## Inline HTML elements
+> Microsoft SQL Server Management Studio
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+In order to connect to the database and log in the user, the developer needs to obtain the BACPAC file from the project partner. Developers need to install sqlserver2019 and SQL Server Management Studio (SSMS). Use SSMS import database. The last step is to open Microsoft Visual Studio and find the connection database in the toolbar.
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+> Google+ API
 
-Most of these elements are styled by browsers with few modifications on our part.
+Using Google sign in is a sign-in method other than connecting to the database and logging in directly. Due to a version issue that was not available before, it has now been fixed by our team. Migrating from the old Google+ API to the new Google API. This user login method is more suitable for developers who use macOS. Because downloading SQL Server 2019 Developer and SQL Server Management Studio directly is not feasible for developers using macOS, you must download docker, which brings a lot of trouble.
 
-## Heading
+The above are the main tools used by our team. As phase 2 of a project, these tools are necessary and have nothing to do with our satisfaction or dissatisfaction. If this project is started by us from phase 1, maybe we need to evaluate how some tools can be more helpful. The main work of our term is to modify the codebase according to the needs of the project partner. We use black box testing to directly test whether bugs have been fixed or UI/UX improved.
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+### Pseudo-code
 
-### Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+Modifications have been made to the menu bar to improve the user's guidance experience.
 
 {% highlight js %}
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
+SqlException: Cannot open server'dxke0yxj7h' requested by the login. Client with IP address '183.167.6.41' is not allowed to access the server. To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range. It may take up to five minutes for this change to take effect.
+Modify the connection string of web.config (ICP.WEB) and APP.config (ICP.DATAACESS) to
+<add name="CurriculumEntities"
+            connectionString="metadata=
+                res://*/ICP.csdl|res://*/ICP.ssdl|res://*/ICP.msl;<!--Add metadata, no need to change-->
+                provider=System.Data.SqlClient;
+                provider connection string=&quot;data source=FZX;initial catalog=StudentCopy;persist security info=True;user id=sa;password=12345;MultipleActiveResultSets=True;App=EntityFramework&quot;"<!--Database address, database name and username and Password needs to be changed -->
+            providerName="System.Data.EntityClient" />
+Modify the cshtml file of ICP.WEB/Areas/Site/VIew/shared, comment out the two li
+Modify ICP.WEB/Views/shared/_SiteDashboardHeader.cshtml to add
+<li><a href="@Url.Action("Index", "CreditAccount", new {area = "Site" })"8>Credit Account</a></li>
 {% endhighlight %}
 
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
 
-### Lists
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
 
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-<dl>
-  <dt>HyperText Markup Language (HTML)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-
-  <dt>Cascading Style Sheets (CSS)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-
-  <dt>JavaScript (JS)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 -----
 
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+
