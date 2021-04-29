@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oregon State Senior Capstone Project: OnSchooler
+title: Oregon State Senior Capstone Project
 ---
 
 
