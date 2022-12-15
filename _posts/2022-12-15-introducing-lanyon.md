@@ -59,8 +59,8 @@ title: 全球肉类生产调查
 肉类消费量在高收入国家最高（澳大利亚最大的肉食者，2013年每人消费约116公斤）。欧洲和北美的平均消费量分别接近80公斤和超过110公斤。然而，高收入国家的消费变化要慢得多——大多数国家在过去50年中停滞不前甚至下降。
 
 非洲各地的消费趋势各不相同;一些国家的人均消费量低至10公斤，约为大陆平均水平的一半。南非等高收入国家人均消费60-70公斤。
-
-
+<script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/619922017/3' width='1368' height='673' hide-tabs toolbar='bottom' ></tableau-viz>
+我们了解到：影响肉类消耗的原因除了地区饮食习惯以外，还和国家收入水平相关。
 
 ### 各地区肉类消费量和人均GDP关系是怎样的？
 随着我们变得更富有，肉类消费量往往会增加。人们吃多少肉的最强决定因素之一是他们的富裕程度。当我们进行跨国比较时。在散点图中，我们看到了人均肉类供应量（在 y 轴上）和人均 GDP（在 x 轴上）之间的关系。我们看到的是一种强烈的正相关关系：一个国家越富裕，普通人通常吃的肉就越多。总体而言，各国倾向于向上和向右移动：变得更富有，吃更多的肉。
