@@ -53,6 +53,7 @@ title: 全球肉类生产调查
 <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/5/1' width='1368' height='673' hide-tabs toolbar='bottom' ></tableau-viz>
 您需要登录至Tableau Cloud查看
 账号：597543625@qq.com 密码：123456Ab*
+
 结论：吃肉不会破环环境，但大量的肉制品生产会带来环境污染。可见肉制品带来的经济效益是许多国家难以抵挡的，即使是打着破坏环境的标签也铤而走险。
 
 
@@ -72,10 +73,12 @@ title: 全球肉类生产调查
 <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/619922017/3' width='1368' height='673' hide-tabs toolbar='bottom' ></tableau-viz>
 您需要登录至Tableau Cloud查看
 账号：597543625@qq.com 密码：123456Ab*
+
 我们了解到：影响肉类消耗的原因除了地区饮食习惯以外，还和国家收入水平相关。
 
 ### 各地区肉类消费量和人均GDP关系是怎样的？
 随着我们变得更富有，肉类消费量往往会增加。人们吃多少肉的最强决定因素之一是他们的富裕程度。当我们进行跨国比较时。在散点图中，我们看到了人均肉类供应量（在 y 轴上）和人均 GDP（在 x 轴上）之间的关系。我们看到的是一种强烈的正相关关系：一个国家越富裕，普通人通常吃的肉就越多。总体而言，各国倾向于向上和向右移动：变得更富有，吃更多的肉。
+<script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/719922017GDP2/9' width='1368' height='729' hide-tabs toolbar='bottom' ></tableau-viz>
 
 从数据完整性的要求出发，我们着重分析1992年冷战结束以来世界各国肉类消费量的变化。在高收入国家肉类消费量最高，比如美国、澳大利亚等国，2017年达到124.1和121.6公斤。
 值得注意的是，英国、法国、德国等西欧发达国家肉类消费量并不太高，2017年均低于90公斤，英国低于80公斤，近年来法国甚至呈现下降趋势。可能的原因包括素食者和弹性素食主义者的增加，为保护环境或听从医疗建议主动放弃食肉等。
@@ -94,6 +97,7 @@ title: 全球肉类生产调查
 <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/8/3' width='1368' height='673' hide-tabs toolbar='bottom' ></tableau-viz>
 您需要登录至Tableau Cloud查看
 账号：597543625@qq.com 密码：123456Ab*
+
 预期寿命是衡量过早死亡的指标，它显示了世界各地健康的巨大差异。从可视化地图我们可以看到，世界上许多最富裕国家的人口预期寿命超过80岁。
 
 2019年（年份按需改动），西班牙、瑞士、意大利和澳大利亚的预期寿命超过83岁。在日本，人们的预期寿命在85岁左右。在健康状况最差的国家，预期寿命在50至60岁之间。中非共和国人口的预期寿命是2019年最低的，为53岁。
