@@ -35,6 +35,8 @@ title: 全球肉类生产调查
 
 ### 哪些肉类生产会污染环境？
 我们了解到除了宗教因素，部分素食主义者也会因为环境、道德等因素，站在保护动物、健康、减肥等原因而吃素。站在客观角度，肉类的生产对环境有很大的影响——增加了温室气体的排放。从探索有关食品环境影响的数据，下图表示的是生产每公斤该类食物的温室气体排放量，借助温室气体排放量我们可以分析哪类产品生产对环境破坏影响的程度较大。
+<script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/4-/1' width='1368' height='729' hide-tabs toolbar='bottom' ></tableau-viz>
+
 
 由图可知，牛肉产品生产在所有品类中的温室气体排放量较大。微软创始人比尔·盖茨的新书《如何避免气候灾难——已有的解决方案和尚需的技术突破》中强调了牛养殖给环境带来的压力。在书中，比尔·盖茨将碳排放主要来源分为五大类：电力（25％）、农业（24％）、制造业（21％）、交通（14％）和建筑（6％），其他各类来源占10％。书中称，如果全世界所有牛是一个国家，那么它的碳排放水平居全球第三，仅次于中国、美国。
 
