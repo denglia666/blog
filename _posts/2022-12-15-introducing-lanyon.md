@@ -21,6 +21,9 @@ title: 全球肉类生产调查
 
 从1961-2020期间，欧洲的肉类产量大约翻了一倍，北美的产量增长了2.5倍。然而，亚洲的产量增长是惊人的：自1961年以来，肉类产量增长了15倍。
 <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/11961-2020/1' width='1368' height='729' hide-tabs toolbar='bottom' ></tableau-viz>
+您需要登录至Tableau Cloud查看
+账号：597543625@qq.com 密码：123456Ab*
+
 对应到每一个国家，可以看见中国在这60年来，增长超过23倍；美洲地区（美国、巴西、阿根廷等）的肉类产量达到1亿吨左右；亚洲地区在2018年甚至超过1.4亿吨肉类产量；像德国、澳大利亚、日本等国家肉类产量都不超过1千万吨。值得一提的是在2018-2019年，疫情爆发的这一年里，中国肉类产量下降了12%。（FAO联合国粮食及农业组）
 <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/21961-2020/sheet1' width='1368' height='729' hide-tabs toolbar='bottom' ></tableau-viz>
 您需要登录至Tableau Cloud查看
@@ -32,12 +35,15 @@ title: 全球肉类生产调查
 世界各地的消费趋势差异很大。在中国，猪肉约占人均肉类消费量的三分之二。在阿根廷，牛肉和水牛肉占主导地位，占消费量的一半以上。与全球平均水平相比，新西兰人对羊肉和山羊肉的偏好要强烈得多。在这里的图表中，我们看到了按国家、地区划分的不同肉类类型的人均消费量。
 <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/3/19612019' width='1368' height='729' hide-tabs toolbar='bottom' ></tableau-viz>
 <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/3/sheet1' width='1368' height='673' hide-tabs toolbar='bottom' ></tableau-viz>
-
+您需要登录至Tableau Cloud查看
+账号：597543625@qq.com 密码：123456Ab*
 
 
 ### 哪些肉类生产会污染环境？
 我们了解到除了宗教因素，部分素食主义者也会因为环境、道德等因素，站在保护动物、健康、减肥等原因而吃素。站在客观角度，肉类的生产对环境有很大的影响——增加了温室气体的排放。从探索有关食品环境影响的数据，下图表示的是生产每公斤该类食物的温室气体排放量，借助温室气体排放量我们可以分析哪类产品生产对环境破坏影响的程度较大。
 <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/4-/1' width='1368' height='729' hide-tabs toolbar='bottom' ></tableau-viz>
+您需要登录至Tableau Cloud查看
+账号：597543625@qq.com 密码：123456Ab*
 
 
 由图可知，牛肉产品生产在所有品类中的温室气体排放量较大。微软创始人比尔·盖茨的新书《如何避免气候灾难——已有的解决方案和尚需的技术突破》中强调了牛养殖给环境带来的压力。在书中，比尔·盖茨将碳排放主要来源分为五大类：电力（25％）、农业（24％）、制造业（21％）、交通（14％）和建筑（6％），其他各类来源占10％。书中称，如果全世界所有牛是一个国家，那么它的碳排放水平居全球第三，仅次于中国、美国。
@@ -45,6 +51,8 @@ title: 全球肉类生产调查
 除了生产牛肉带来的碳排放会污染环境，我们还发现有些国家会为了牛群养殖而大肆砍伐森林，这也造成了不小的环境破坏。热带森林的砍伐是生产牛肉产品所导致的一个现象。牛群养殖扩大化，使得牧场面积也在持续扩大从而造成了大量热带森林砍伐。
 在图表中，我们看到了按国家和地区划分的热带森林砍伐比例。它是以2010年至2014年的年平均值来衡量的。三分之一的热带森林砍伐发生在巴西，另一个失去大片森林面积的国家是印度尼西亚，占14%。这意味着大约一半（47%）的热带森林砍伐发生在巴西和印度尼西亚。（色标：因商品驱动的森林砍伐比例）
 <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/5/1' width='1368' height='673' hide-tabs toolbar='bottom' ></tableau-viz>
+您需要登录至Tableau Cloud查看
+账号：597543625@qq.com 密码：123456Ab*
 结论：吃肉不会破环环境，但大量的肉制品生产会带来环境污染。可见肉制品带来的经济效益是许多国家难以抵挡的，即使是打着破坏环境的标签也铤而走险。
 
 
@@ -62,6 +70,8 @@ title: 全球肉类生产调查
 
 非洲各地的消费趋势各不相同;一些国家的人均消费量低至10公斤，约为大陆平均水平的一半。南非等高收入国家人均消费60-70公斤。
 <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/619922017/3' width='1368' height='673' hide-tabs toolbar='bottom' ></tableau-viz>
+您需要登录至Tableau Cloud查看
+账号：597543625@qq.com 密码：123456Ab*
 我们了解到：影响肉类消耗的原因除了地区饮食习惯以外，还和国家收入水平相关。
 
 ### 各地区肉类消费量和人均GDP关系是怎样的？
@@ -82,6 +92,8 @@ title: 全球肉类生产调查
 
 ### 少吃肉的人会更长寿？
 <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/8/3' width='1368' height='673' hide-tabs toolbar='bottom' ></tableau-viz>
+您需要登录至Tableau Cloud查看
+账号：597543625@qq.com 密码：123456Ab*
 预期寿命是衡量过早死亡的指标，它显示了世界各地健康的巨大差异。从可视化地图我们可以看到，世界上许多最富裕国家的人口预期寿命超过80岁。
 
 2019年（年份按需改动），西班牙、瑞士、意大利和澳大利亚的预期寿命超过83岁。在日本，人们的预期寿命在85岁左右。在健康状况最差的国家，预期寿命在50至60岁之间。中非共和国人口的预期寿命是2019年最低的，为53岁。
