@@ -79,6 +79,7 @@ title: 全球肉类生产调查
 
 
 ### 少吃肉的人会更长寿？
+<script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/8/3' width='1368' height='673' hide-tabs toolbar='bottom' ></tableau-viz>
 预期寿命是衡量过早死亡的指标，它显示了世界各地健康的巨大差异。从可视化地图我们可以看到，世界上许多最富裕国家的人口预期寿命超过80岁。
 
 2019年（年份按需改动），西班牙、瑞士、意大利和澳大利亚的预期寿命超过83岁。在日本，人们的预期寿命在85岁左右。在健康状况最差的国家，预期寿命在50至60岁之间。中非共和国人口的预期寿命是2019年最低的，为53岁。
