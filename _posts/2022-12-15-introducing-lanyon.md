@@ -22,7 +22,7 @@ title: 全球肉类生产调查
 从1961-2020期间，欧洲的肉类产量大约翻了一倍，北美的产量增长了2.5倍。然而，亚洲的产量增长是惊人的：自1961年以来，肉类产量增长了15倍。
 <script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/11961-2020/1' width='1368' height='729' hide-tabs toolbar='bottom' ></tableau-viz>
 对应到每一个国家，可以看见中国在这60年来，增长超过23倍；美洲地区（美国、巴西、阿根廷等）的肉类产量达到1亿吨左右；亚洲地区在2018年甚至超过1.4亿吨肉类产量；像德国、澳大利亚、日本等国家肉类产量都不超过1千万吨。值得一提的是在2018-2019年，疫情爆发的这一年里，中国肉类产量下降了12%。（FAO联合国粮食及农业组）
-
+<script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/21961-2020/sheet1' width='1368' height='729' hide-tabs toolbar='bottom' ></tableau-viz>
 
 
 ### 不同地区的人们爱吃什么类型的肉？
