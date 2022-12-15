@@ -29,6 +29,7 @@ title: 全球肉类生产调查
 我们对不同国家和地区的人的吃肉偏好进行了调查。我们发现从1961年到2019年来，全球人均消费量排名前3的肉类商品分别是：鱼和海鲜，家禽和猪肉。排名最高的鱼和海鲜，平均下来每年为17公斤。这些数据在每一年又有所不同，比如，在2019年，人均食用了约21公斤家禽，其次才是鱼和海鲜，约为19公斤，排名第三的为猪肉，14.5公斤。
 
 世界各地的消费趋势差异很大。在中国，猪肉约占人均肉类消费量的三分之二。在阿根廷，牛肉和水牛肉占主导地位，占消费量的一半以上。与全球平均水平相比，新西兰人对羊肉和山羊肉的偏好要强烈得多。在这里的图表中，我们看到了按国家、地区划分的不同肉类类型的人均消费量。
+<script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/3/sheet1' width='1368' height='673' hide-tabs toolbar='bottom' ></tableau-viz>
 
 
 
