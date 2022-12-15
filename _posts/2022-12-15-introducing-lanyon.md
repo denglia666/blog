@@ -42,7 +42,7 @@ title: 全球肉类生产调查
 
 除了生产牛肉带来的碳排放会污染环境，我们还发现有些国家会为了牛群养殖而大肆砍伐森林，这也造成了不小的环境破坏。热带森林的砍伐是生产牛肉产品所导致的一个现象。牛群养殖扩大化，使得牧场面积也在持续扩大从而造成了大量热带森林砍伐。
 在图表中，我们看到了按国家和地区划分的热带森林砍伐比例。它是以2010年至2014年的年平均值来衡量的。三分之一的热带森林砍伐发生在巴西，另一个失去大片森林面积的国家是印度尼西亚，占14%。这意味着大约一半（47%）的热带森林砍伐发生在巴西和印度尼西亚。（色标：因商品驱动的森林砍伐比例）
-
+<script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/5/1' width='1368' height='673' hide-tabs toolbar='bottom' ></tableau-viz>
 结论：吃肉不会破环环境，但大量的肉制品生产会带来环境污染。可见肉制品带来的经济效益是许多国家难以抵挡的，即使是打着破坏环境的标签也铤而走险。
 
 
