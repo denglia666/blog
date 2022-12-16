@@ -94,7 +94,7 @@ title: 全球肉类生产调查
 
 
 ### 少吃肉的人会更长寿？
-<script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/8/3' width='1368' height='673' hide-tabs toolbar='bottom' ></tableau-viz>
+<script type='module' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-apnortheast-a.online.tableau.com/t/denglia/views/_0/11' width='1368' height='729' hide-tabs toolbar='bottom' ></tableau-viz>
 您需要登录至Tableau Cloud查看
 账号：597543625@qq.com 密码：123456Ab*
 
